@@ -9,7 +9,7 @@ The primary goal of this project is to develop an Explainable AI (XAI) system fo
 
 **gui.py**: Contains the code for the Graphical User Interface. It manages the layout, buttons, and display areas where the user interacts with the system.
 
-model.h5 / model.keras: The saved, pre-trained weights of your CNN model, which are loaded by the GUI to perform real-time predictions.
+**model.h5 / model.keras**: The saved, pre-trained weights of your CNN model, which are loaded by the GUI to perform real-time predictions.
 
 **GUI Functionality**
 The GUI serves as the bridge between the complex AI model and the end-user. Its main functions include:
