@@ -1,16 +1,16 @@
 Here is the information from your document presented without any bold text:
 
 Project Overview
-The primary goal of this project is to develop an Explainable AI (XAI) system for detecting skin cancer. 
-By combining Deep Learning models with transparency tools like LIME, the system doesn't just provide a diagnosis (benign or malignant) 
-but also highlights the specific visual features of a skin lesion that led to that decision, helping clinicians trust the AI's output.
+The primary goal of this project is to develop an Explainable AI (XAI) system for detecting skin cancer. By combining Deep Learning models with transparency tools like LIME, the system doesn't just provide a diagnosis (benign or malignant) but also highlights the specific visual features of a skin lesion that led to that decision, helping clinicians trust the AI's output.
 
 File Descriptions
 
-cnn.ipynb: This is the core technical notebook. It handles the Data Preprocessing (including resizing, normalization, and augmentation), model training, and evaluation. 
-It contains the logic for the CNN architecture used to classify the skin images.
+cnn.ipynb: This is the core technical notebook. It handles the Data Preprocessing (including resizing, normalization, and augmentation), model training, and evaluation. It contains the logic for the CNN architecture used to classify the skin images.
+
 main.py: The entry point for the application. This file integrates the trained model with the user interface, orchestrating the flow between user input and model prediction.
+
 gui.py: Contains the code for the Graphical User Interface. It manages the layout, buttons, and display areas where the user interacts with the system.
+
 model.h5 / model.keras: The saved, pre-trained weights of your CNN model, which are loaded by the GUI to perform real-time predictions.
 
 GUI Functionality
